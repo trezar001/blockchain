@@ -1,0 +1,25 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain implementation with Javascript",
+  "main": "blockchain.js",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trezar001/blockchain.git"
+  },
+  "author": "trezar001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trezar001/blockchain/issues"
+  },
+  "homepage": "https://github.com/trezar001/blockchain#readme"
+}
