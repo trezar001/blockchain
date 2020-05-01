@@ -106,11 +106,11 @@ class Blockchain{
         }
         else{
             this.chain = [this.createGenesisBlock()];
-            this.difficulty = 7;
+            this.difficulty = 4;
             this.pendingTransactions = [];
             this.reward = 3;
             this.decimals = 4;     
-            this.icon = 'POO'  
+            this.icon = 'BLK'  
             this.pendingBlock = new Block(Date.now(), this.pendingTransactions, this.chain[this.chain.length-1].hash);
         }       
     }
